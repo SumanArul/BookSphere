@@ -10,13 +10,13 @@ public class LibManagementMain {
             System.out.print("Enter your role(admin/user)");
             String choice = sc.next();
             switch (choice) {
-                case "admin":
+                case "admin":                   
                     System.out.print("Enter admin name ");
                     String name = sc.next();
                     System.out.print("Enter your password ");
                     String password = sc.next();
                     if (name.equals("admin") && password.equals("123")) {
-                        System.out.println("Loggin successfully as admin");
+                        System.out.println("Login successfully as admin");
                         adminaccess();
                     } else {
                         System.out.println("loggin failed");
